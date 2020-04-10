@@ -1,2 +1,2 @@
-import tkinter as tk
-
+import site
+print(site.getsitepackages())
