@@ -3,6 +3,7 @@ import tkinter as tk # Python 3
 root = tk.Tk()
 # The image must be stored to Tk or it will be garbage collected.
 root.image = tk.PhotoImage(file='2.png')
+
 label = tk.Label(root, image=root.image, bg='white')
 root.overrideredirect(True)
 root.geometry("+250+250")
